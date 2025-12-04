@@ -1,5 +1,8 @@
 {
   "policies": {
+    "SearchEngines": {
+      "Default": "DuckDuckGo"
+    },
     "Cookies": {
       "ExpireAtSessionEnd": true,
       "Behavior": "reject-foreign",
@@ -60,7 +63,7 @@
       "SkipOnboarding": false,
       "MoreFromMozilla": false
     },
-    "PDFjs": { "Enabled": true },
+    "PDFjs": { "Enabled": false },
     "Permissions": {
       "Camera": { "BlockNewRequests": true, "Locked": true },
       "Microphone": { "BlockNewRequests": true, "Locked": true },
@@ -152,8 +155,7 @@
       "browser.download.always_ask_before_handling_new_types": {
         "Value": true,
         "Status": "user"
-      }
-      ,
+      },
       "browser.taskbar.previews.enable": {
         "Value": false,
         "Status": "locked"
@@ -163,7 +165,7 @@
      },
      "browser.ml.chat.enabled": {
         "Value": false,
-        "Status": "locked"
+       "Status": "locked"
      }
     }
   }
