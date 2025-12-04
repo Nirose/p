@@ -29,11 +29,9 @@
       "Search": false,
       "TopSites": false,
       "Highlights": false,
-      "Pocket": false,
       "Snippets": false,
       "Locked": true
     },
-    "DisablePocket": true,
     "DisableTelemetry": true,
     "DisplayMenuBar": "default-off",
     "DisableProfileRefresh": false,
@@ -46,8 +44,6 @@
       "TopSites": false,
       "SponsoredTopSites": false,
       "Highlights": false,
-      "Pocket": false,
-      "SponsoredPocket": false,
       "Snippets": false,
       "Locked": false
     },
