@@ -1,6 +1,17 @@
 {
   "policies": {
     "SearchEngines": {
+      "Add": [
+        {
+          "Name": "Brave",
+          "URLTemplate": "https://search.brave.com/search?q={searchTerms}",
+          "Method": "GET",
+          "IconURL": "https://cdn.search.brave.com/serp/v1/static/brand/d6a7857f7f3c2d5e1a55d27a8e25b39a31c4c5d093ff479aeb1b99d0faca5c71-favicon.ico",
+          "Alias": "b",
+          "Description": "Search with Brave Search Engine",
+          "SuggestURLTemplate": "https://search.brave.com/search?q={searchTerms}"
+        }
+      ],
       "Default": "DuckDuckGo"
     },
     "Cookies": {
