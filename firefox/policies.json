@@ -1,0 +1,170 @@
+{
+  "policies": {
+    "Cookies": {
+      "ExpireAtSessionEnd": true,
+      "Behavior": "reject-foreign",
+      "BehaviorPrivateBrowsing": "reject-foreign"
+    },
+    "PasswordManagerEnabled": false,
+    "OfferToSaveLogins": false,
+    "HttpsOnlyMode": "force_enabled",
+    "DisableBuiltinPDFViewer": true,
+    "DisableFeedbackCommands": true,
+    "DisableFirefoxAccounts": true,
+    "DisableFirefoxStudies": true,
+    "FirefoxHome": {
+      "Search": false,
+      "TopSites": false,
+      "Highlights": false,
+      "Pocket": false,
+      "Snippets": false,
+      "Locked": true
+    },
+    "DisablePocket": true,
+    "DisableTelemetry": true,
+    "DisplayMenuBar": "default-off",
+    "DisableProfileRefresh": false,
+    "DNSOverHTTPS": {
+      "Enabled":  false
+    },
+    "DontCheckDefaultBrowser": true,
+    "FirefoxHome": {
+      "Search": false,
+      "TopSites": false,
+      "SponsoredTopSites": false,
+      "Highlights": false,
+      "Pocket": false,
+      "SponsoredPocket": false,
+      "Snippets": false,
+      "Locked": false
+    },
+    "Homepage": {
+      "URL": "about:blank",
+      "StartPage": "none",
+      "Locked": true
+    },
+    "ManualAppUpdateOnly": true,
+    "NetworkPrediction": false,
+    "NewTabPage": false,
+    "NoDefaultBookmarks": true,
+    "OverrideFirstRunPage": "",
+    "OverridePostUpdatePage": "",
+    "DisableFormHistory": false,
+    "SearchSuggestEnabled": false,
+    "StartDownloadsInTempDirectory": true,
+    "UserMessaging": { 
+      "WhatsNew": false, 
+      "ExtensionRecommendations": false, 
+      "FeatureRecommendations": false, 
+      "UrlbarInterventions": false,
+      "SkipOnboarding": false,
+      "MoreFromMozilla": false
+    },
+    "PDFjs": { "Enabled": true },
+    "Permissions": {
+      "Camera": { "BlockNewRequests": true, "Locked": true },
+      "Microphone": { "BlockNewRequests": true, "Locked": true },
+      "Location": { "BlockNewRequests": true, "Locked": true },
+      "Notifications": { "BlockNewRequests": true, "Locked": true },
+      "VirtualReality": { "BlockNewRequests": true, "Locked": true }
+    },
+    "Preferences": {
+      "layout.spellcheckDefault": {
+        "Value": 0,
+        "Status": "locked"
+      },
+      "accessibility.force_disabled": {
+        "Value": 1,
+        "Status": "locked"
+      },
+      "browser.safebrowsing.phishing.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "browser.safebrowsing.malware.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "browser.sessionstore.resume_from_crash": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "browser.tabs.closeWindowWithLastTab": {
+        "Value": false,
+        "Status": "locked"
+      },    
+      "dom.event.clipboardevents.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "dom.event.contextmenu.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "extensions.htmlaboutaddons.recommendations.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "media.mediasource.enabled": {
+        "Value": true,
+        "Status": "user"
+      },
+      "signon.management.page.breach-alerts.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "datareporting.usage.uploadEnabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "browser.crashReports.unsubmittedCheck.autoSubmit2": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "browser.tabs.hoverPreview.showThumbnails": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "browser.privatebrowsing.forceMediaMemoryCache": {
+        "Value": true,
+        "Status": "locked"
+      },
+      "media.memory_cache_max_size": {
+        "Value": 65536,
+        "Status": "user"
+      },
+      "browser.helperApps.deleteTempFileOnExit": {
+        "Value": true,
+        "Status": "locked"
+      },
+      "browser.shell.shortcutFavicons": {
+        "Value": false,
+        "Status": "user"
+      },
+      "browser.download.useDownloadDir": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "browser.download.manager.addToRecentDocs": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "browser.download.always_ask_before_handling_new_types": {
+        "Value": true,
+        "Status": "user"
+      }
+      ,
+      "browser.taskbar.previews.enable": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "browser.ml.enable": {
+        "Value": false
+     },
+     "browser.ml.chat.enabled": {
+        "Value": false,
+        "Status": "locked"
+     }
+    }
+  }
+}
