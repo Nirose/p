@@ -11,8 +11,7 @@
           "Description": "Search with Brave Search Engine",
           "SuggestURLTemplate": "https://search.brave.com/search?q={searchTerms}"
         }
-      ],
-      "Default": "DuckDuckGo"
+      ]
     },
     "Cookies": {
       "ExpireAtSessionEnd": true,
