@@ -72,6 +72,9 @@
       "VirtualReality": { "BlockNewRequests": true, "Locked": true }
     },
     "Preferences": {
+      "layout.css.prefers-color-scheme.content-override":{
+        "Value": 0
+      },
       "layout.spellcheckDefault": {
         "Value": 0,
         "Status": "locked"
