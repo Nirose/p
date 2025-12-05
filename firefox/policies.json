@@ -42,7 +42,7 @@
     "DisplayMenuBar": "default-off",
     "DisableProfileRefresh": false,
     "DNSOverHTTPS": {
-      "Enabled":  false
+      "Enabled":  true
     },
     "DontCheckDefaultBrowser": true,
     "FirefoxHome": {
