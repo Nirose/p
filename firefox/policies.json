@@ -42,7 +42,9 @@
     "DisplayMenuBar": "default-off",
     "DisableProfileRefresh": false,
     "DNSOverHTTPS": {
-      "Enabled":  true
+      "Enabled":  true,
+      "ProviderURL": "https://1.1.1.1/dns-query",
+      "Fallback": true
     },
     "DontCheckDefaultBrowser": true,
     "FirefoxHome": {
