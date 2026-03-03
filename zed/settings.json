@@ -7,28 +7,30 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "disable_ai": true,
+  "enable_language_server": false,
   "languages": {
     "Python": {
       "tasks": {
-        "enabled": false
+        "enabled": false,
       },
-      "language_servers": ["ty", "ruff"]
+      "language_servers": ["ty", "ruff"],
     },
     "JavaScript": {
-      "enable_language_server": false
+      "enable_language_server": false,
     },
     "TypeScript": {
-      "enable_language_server": false
-    }
+      "enable_language_server": false,
+    },
   },
   "autosave": "on_window_change",
   "auto_update": false,
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
   },
   "base_keymap": "VSCode",
   "ui_font_size": 16,
   "buffer_font_size": 15,
-  "theme": "Gruvbox Dark Hard"
+  "theme": "Ayu Dark",
 }
